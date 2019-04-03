@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Coffee</string>
+		<key>Image</key>
+		<string>coffee_pot</string>
+		<key>Des</key>
+		<string>take it in early day</string>
+	</dict>
+    <dict>
+        <key>Name</key>
+        <string>Espresso</string>
+        <key>Image</key>
+        <string>espresso</string>
+        <key>Des</key>
+        <string></string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>French Fries</string>
+        <key>Image</key>
+        <string>french_fries</string>
+        <key>Des</key>
+        <string></string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Honey</string>
+        <key>Image</key>
+        <string>honey</string>
+        <key>Des</key>
+        <string></string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Strawberry ice cream</string>
+        <key>Image</key>
+        <string>strawberry_ice_cream</string>
+        <key>Des</key>
+        <string></string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Sugar cubes</string>
+        <key>Image</key>
+        <string>sugar_cubes</string>
+        <key>Des</key>
+        <string>Sugar cubes are extremely simple to make at home</string>
+    </dict>
+	
+</array>
+</plist>
