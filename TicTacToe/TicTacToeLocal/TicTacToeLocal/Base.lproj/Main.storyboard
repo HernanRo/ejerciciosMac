@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TicTacToeLocal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="13M-ay-VzS">
+                                <rect key="frame" x="10" y="120" width="108" height="108"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="97a-cV-gaE"/>
+                                    <constraint firstAttribute="height" constant="108" id="Hdd-k0-RMt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <connections>
+                                    <action selector="buSeletEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7xX-gb-Fvf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEf-xg-pBr">
+                                <rect key="frame" x="246" y="120" width="119" height="108"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="fBQ-1g-Gah"/>
+                                    <constraint firstAttribute="height" constant="108" id="x60-uD-ffw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <connections>
+                                    <action selector="buSeletEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8p9-dd-sKT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ej-5t-5Bn">
+                                <rect key="frame" x="128" y="120" width="108" height="108"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="n6C-E2-QBG"/>
+                                    <constraint firstAttribute="width" constant="108" id="yfH-qu-fpp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <connections>
+                                    <action selector="buSeletEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bKn-qP-Crl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8v-rB-HQo">
+                                <rect key="frame" x="10" y="238" width="108" height="108"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="8ae-Eu-tZA"/>
+                                    <constraint firstAttribute="height" constant="108" id="QLE-6q-eRq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <connections>
+                                    <action selector="buSeletEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5gb-75-8op"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XgC-6c-Qha">
+                                <rect key="frame" x="246" y="238" width="119" height="108"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="eFc-ta-k60"/>
+                                    <constraint firstAttribute="width" constant="108" id="xxc-2P-tbn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <connections>
+                                    <action selector="buSeletEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aMN-jq-mO3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fg9-2n-ih7">
+                                <rect key="frame" x="128" y="238" width="108" height="108"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="L8L-CP-v9N"/>
+                                    <constraint firstAttribute="width" constant="108" id="bJu-Y3-pIA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <connections>
+                                    <action selector="buSeletEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8LQ-LE-ZsD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnP-M5-pxI">
+                                <rect key="frame" x="10" y="356" width="108" height="108"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="0Xd-YV-rbw"/>
+                                    <constraint firstAttribute="width" constant="108" id="l0q-Nq-Y1T"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <connections>
+                                    <action selector="buSeletEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eAk-bX-0wW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evq-zv-NlD">
+                                <rect key="frame" x="246" y="356" width="119" height="108"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="7MP-b9-2Uz"/>
+                                    <constraint firstAttribute="height" constant="108" id="wbD-Yy-ial"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <connections>
+                                    <action selector="buSeletEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xL8-za-fJI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9C9-QD-Dj6">
+                                <rect key="frame" x="128" y="356" width="108" height="108"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="S1r-Ez-Gpg"/>
+                                    <constraint firstAttribute="width" constant="108" id="sJe-5y-VgP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <connections>
+                                    <action selector="buSeletEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PT4-UI-XcF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83137254901960778" green="0.82745098039215681" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="XgC-6c-Qha" firstAttribute="top" secondItem="xEf-xg-pBr" secondAttribute="bottom" constant="10" id="00j-38-eTm"/>
+                            <constraint firstItem="XgC-6c-Qha" firstAttribute="top" secondItem="xEf-xg-pBr" secondAttribute="bottom" constant="10" id="3rP-Dj-Pm3"/>
+                            <constraint firstItem="fg9-2n-ih7" firstAttribute="top" secondItem="1Ej-5t-5Bn" secondAttribute="bottom" constant="10" id="7dI-vE-Zk0"/>
+                            <constraint firstItem="13M-ay-VzS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="AY2-wA-xxO"/>
+                            <constraint firstItem="xEf-xg-pBr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="BIq-Ya-L8U"/>
+                            <constraint firstItem="1Ej-5t-5Bn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="HuA-6w-7GH"/>
+                            <constraint firstItem="fg9-2n-ih7" firstAttribute="top" secondItem="1Ej-5t-5Bn" secondAttribute="bottom" constant="10" id="K9j-vf-OeL"/>
+                            <constraint firstItem="13M-ay-VzS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="L28-kh-82B"/>
+                            <constraint firstItem="KnP-M5-pxI" firstAttribute="top" secondItem="T8v-rB-HQo" secondAttribute="bottom" constant="10" id="O4Z-Nv-9nE"/>
+                            <constraint firstItem="KnP-M5-pxI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="VGR-uY-KI0"/>
+                            <constraint firstItem="9C9-QD-Dj6" firstAttribute="top" secondItem="fg9-2n-ih7" secondAttribute="bottom" constant="10" id="VOg-5L-HcK"/>
+                            <constraint firstItem="XgC-6c-Qha" firstAttribute="leading" secondItem="fg9-2n-ih7" secondAttribute="trailing" constant="10" id="WJb-am-R3w"/>
+                            <constraint firstItem="T8v-rB-HQo" firstAttribute="top" secondItem="13M-ay-VzS" secondAttribute="bottom" constant="10" id="aFY-lZ-LFc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XgC-6c-Qha" secondAttribute="trailing" constant="10" id="dE0-QU-w1f"/>
+                            <constraint firstItem="9C9-QD-Dj6" firstAttribute="top" secondItem="fg9-2n-ih7" secondAttribute="bottom" constant="10" id="dXA-Zp-9IA"/>
+                            <constraint firstItem="T8v-rB-HQo" firstAttribute="top" secondItem="13M-ay-VzS" secondAttribute="bottom" constant="21" id="f0f-6k-j3P"/>
+                            <constraint firstItem="T8v-rB-HQo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="gjY-yU-HcK"/>
+                            <constraint firstItem="fg9-2n-ih7" firstAttribute="top" secondItem="1Ej-5t-5Bn" secondAttribute="bottom" constant="21" id="jJd-AE-RZs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xEf-xg-pBr" secondAttribute="trailing" constant="10" id="jtM-WQ-tR8"/>
+                            <constraint firstItem="9C9-QD-Dj6" firstAttribute="leading" secondItem="KnP-M5-pxI" secondAttribute="trailing" constant="10" id="kJ9-gt-Dh8"/>
+                            <constraint firstItem="fg9-2n-ih7" firstAttribute="leading" secondItem="T8v-rB-HQo" secondAttribute="trailing" constant="10" id="lNJ-Z3-DzR"/>
+                            <constraint firstItem="Evq-zv-NlD" firstAttribute="top" secondItem="XgC-6c-Qha" secondAttribute="bottom" constant="10" id="lWp-JD-feh"/>
+                            <constraint firstItem="Evq-zv-NlD" firstAttribute="leading" secondItem="9C9-QD-Dj6" secondAttribute="trailing" constant="10" id="nL1-EU-UQ3"/>
+                            <constraint firstItem="XgC-6c-Qha" firstAttribute="top" secondItem="xEf-xg-pBr" secondAttribute="bottom" constant="21" id="pYc-ZA-7FK"/>
+                            <constraint firstItem="1Ej-5t-5Bn" firstAttribute="leading" secondItem="13M-ay-VzS" secondAttribute="trailing" constant="10" id="rFT-xv-QWK"/>
+                            <constraint firstItem="KnP-M5-pxI" firstAttribute="top" secondItem="T8v-rB-HQo" secondAttribute="bottom" constant="10" id="t04-Di-YKF"/>
+                            <constraint firstItem="T8v-rB-HQo" firstAttribute="top" secondItem="13M-ay-VzS" secondAttribute="bottom" constant="10" id="teG-Vg-8Ud"/>
+                            <constraint firstItem="xEf-xg-pBr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="uzS-2h-X4y"/>
+                            <constraint firstItem="Evq-zv-NlD" firstAttribute="top" secondItem="XgC-6c-Qha" secondAttribute="bottom" constant="10" id="xEC-l6-Ytl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Evq-zv-NlD" secondAttribute="trailing" constant="10" id="xNM-DF-A4C"/>
+                            <constraint firstItem="xEf-xg-pBr" firstAttribute="leading" secondItem="1Ej-5t-5Bn" secondAttribute="trailing" constant="10" id="zw8-8r-top"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bu1" destination="13M-ay-VzS" id="soT-au-ERS"/>
+                        <outlet property="bu2" destination="1Ej-5t-5Bn" id="SzT-Kq-Aig"/>
+                        <outlet property="bu3" destination="xEf-xg-pBr" id="LMl-2P-QiE"/>
+                        <outlet property="bu4" destination="T8v-rB-HQo" id="zFp-X1-T7f"/>
+                        <outlet property="bu5" destination="fg9-2n-ih7" id="4Lf-pK-5yz"/>
+                        <outlet property="bu6" destination="XgC-6c-Qha" id="S3R-SD-HmR"/>
+                        <outlet property="bu7" destination="KnP-M5-pxI" id="Su0-jx-6X8"/>
+                        <outlet property="bu8" destination="9C9-QD-Dj6" id="TMM-QP-Qpi"/>
+                        <outlet property="bu9" destination="Evq-zv-NlD" id="kET-ZW-ePX"/>
+                        <outlet property="view" destination="8bC-Xf-vdC" id="NZP-ex-smY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="109.59999999999999" y="32.833583208395808"/>
+        </scene>
+    </scenes>
+</document>
